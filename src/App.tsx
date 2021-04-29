@@ -45,6 +45,7 @@ function App() {
   }
 
   function resetTime() {
+    setIsActive(true);
     setTime(0);
     clearTimeout(countdownTimeout);
   }
